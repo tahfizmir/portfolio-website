@@ -38,6 +38,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="social-link"
                   aria-label="GitHub"
+                  title='GitHub'
                 >
                   <FiGithub />
                 </a>
@@ -47,6 +48,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="social-link"
                   aria-label="LinkedIn"
+                  title='LinkedIn'
                 >
                   <FiLinkedin />
                 </a>
@@ -54,6 +56,7 @@ const Footer: React.FC = () => {
                   href="mailto:tahfeezmir27@gmail.com"
                   className="social-link"
                   aria-label="Email"
+                  title='Email'
                 >
                   <FiMail />
                 </a>
