@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
       position: 'Software Development Engineering Intern',
       duration: 'Jan 2025 - June 2025',
       location: 'Pune, Maharashtra',
-      description: 'Worked on Autodesk Fusion, a multi-billion dollar project catering to millions of users worldwide.',
+      description: 'Worked on Autodesk Fusion, a multi-billion dollar product catering to millions of users worldwide.',
       achievements: [
         'Developed and optimized UI components in Autodesk Fusion using React, enhancing user experience',
         'Engineered backend logic in C++ to support seamless integration of new frontend features',
