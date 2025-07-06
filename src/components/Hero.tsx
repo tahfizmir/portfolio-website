@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                 Get In Touch
               </a>
               <a
-                href="public/assets/Mir_Tahfiz_Hafiz.pdf"
+                href="/assets/Mir_Tahfiz_Hafiz.pdf"
                 className="btn btn-secondary"
                 download
               >
