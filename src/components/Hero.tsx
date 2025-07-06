@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
+import { FaCode, FaLaptopCode } from 'react-icons/fa';
 import './Hero.css';
 
 const Hero: React.FC = () => {
@@ -31,22 +32,44 @@ const Hero: React.FC = () => {
 
             <div className="social-links fade-in">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/tahfizmir" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
                 aria-label="GitHub"
+                title='GitHub'
               >
                 <FiGithub />
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/tahfiz-mir-46364a239/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
                 aria-label="LinkedIn"
+                title='LinkedIn'
               >
                 <FiLinkedin />
+              </a>
+                 <a 
+                href="https://leetcode.com/u/tahfeezmir/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label="Leetcode"
+                title='Leetcode'
+              >
+                <FaLaptopCode />
+              </a>
+                 <a 
+                href="https://codeforces.com/profile/mirtahfiz" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label="Codeforces"
+                title='Codeforces'
+              >
+                <FaCode/>
               </a>
             </div>
           </div>
