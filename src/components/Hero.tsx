@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
           <div className="hero-image fade-in">
             <div className="image-container">
               <img
-                src="public/assets/profilePicture.jpeg"
+                src="/assets/profilePicture.jpeg"
                 alt="Your Name"
                 className="profile-image"
               />
