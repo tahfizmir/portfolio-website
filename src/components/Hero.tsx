@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                 Get In Touch
               </a>
               <a
-                href="src/assets/Mir_Tahfiz_Hafiz.pdf"
+                href="public/assets/Mir_Tahfiz_Hafiz.pdf"
                 className="btn btn-secondary"
                 download
               >
@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
           <div className="hero-image fade-in">
             <div className="image-container">
               <img
-                src="src\assets\profilePicture.jpeg"
+                src="public\assets\Mir_Tahfiz_Hafiz.pdf"
                 alt="Your Name"
                 className="profile-image"
               />
