@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-info">
-            <h3>Your Name</h3>
+            <h3>Mir Tahfiz Hafiz</h3>
             <p>
               Full Stack Developer passionate about creating amazing digital experiences 
               and solving complex problems through code.
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <h4>Connect</h4>
               <div className="social-links">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/tahfizmir"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link"
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                   <FiGithub />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/tahfiz-mir-46364a239/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link"
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
                   <FiLinkedin />
                 </a>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:tahfeezmir27@gmail.com"
                   className="social-link"
                   aria-label="Email"
                 >
@@ -64,8 +64,7 @@ const Footer: React.FC = () => {
 
         <div className="footer-bottom">
           <p>
-            © {currentYear} Your Name. Built with{' '}
-            <FiHeart className="heart-icon" /> using React & TypeScript
+            © {currentYear} Mir Tahfiz built this web-page and holds all the rights.
           </p>
         </div>
       </div>

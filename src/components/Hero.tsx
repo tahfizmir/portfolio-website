@@ -15,8 +15,7 @@ const Hero: React.FC = () => {
               Full Stack Developer & Software Engineer
             </h2>
             <p className="hero-description fade-in">
-              I'm a passionate developer who loves creating amazing digital experiences. 
-              Currently building innovative solutions and expanding my expertise in modern technologies.
+              A 2025 batch B.Tech CSE graduate from the Indian Institute of Information Technology, Pune , I recently completed a Software Development Internship at Autodesk, where I contributed to production-level development using React, TypeScript, and C++.
             </p>
             
             <div className="hero-actions fade-in">

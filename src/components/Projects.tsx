@@ -9,7 +9,7 @@ const projects = [
     description: 'A full-stack platform to upload, stream, and manage video content with user accounts and secure streaming.',
     image: 'https://images.unsplash.com/photo-1593642634443-44adaa06623a?w=500&h=300&fit=crop&auto=format&q=80',
     technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js','JWT', 'Bcrypt'],
-    github: 'https://github.com/yourusername/video-hosting-platform',
+    github: 'https://github.com/tahfizmir/backend-project',
     features: ['User Authentication', 'Video Upload', 'Secure Streaming', 'Responsive Design','User Profiles']
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description: 'A feature-rich blogging platform with user authentication, rich text editing, and SEO-friendly post management.',
     image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=500&h=300&fit=crop&auto=format&q=80',
     technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
-    github: 'https://github.com/yourusername/blogging-platform',
+    github: 'https://github.com/tahfizmir/just-blog-it',
     features: ['User Authentication', 'Rich Text Editor', 'SEO Optimization']
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: 'A responsive food delivery application with restaurant listings, order tracking, and integrated payment.',
     image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=500&h=300&fit=crop&auto=format&q=80',
     technologies: ['React.js', 'Node.js', 'Live API'],
-    github: 'https://github.com/yourusername/food-delivery-platform',
+    github: 'https://github.com/tahfizmir/Food-Express',
     features: ['Restaurant Listings', 'Order Tracking', 'Cart Integration', 'Mobile Responsive']
   },
 ];

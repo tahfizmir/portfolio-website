@@ -1,43 +1,57 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
-import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin } from 'react-icons/fi';
-import './Contact.css';
+import {
+  FiMail,
+  FiPhone,
+  FiMapPin,
+  FiSend,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
+import "./Contact.css";
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  emailjs.send(
-    'service_14bgc5o',
-    'template_cnwkudm',
-    formData,
-    's8ejjZpWOyb6ZL2d6'
-  )
-  .then((result) => {
-    console.log(result.text);
-    alert("Thank you for your message! I'll get back to you soon.");
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  }, (error) => {
-    console.log(error.text);
-    alert("Sorry, there was a problem sending your message. Please try again later.");
-  });
-};
-
+    emailjs
+      .send(
+        "service_14bgc5o",
+        "template_cnwkudm",
+        formData,
+        "s8ejjZpWOyb6ZL2d6"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Thank you for your message! I'll get back to you soon.");
+          setFormData({ name: "", email: "", subject: "", message: "" });
+        },
+        (error) => {
+          console.log(error.text);
+          alert(
+            "Sorry, there was a problem sending your message. Please try again later."
+          );
+        }
+      );
+  };
 
   return (
     <section id="contact" className="contact section">
@@ -45,7 +59,8 @@ const Contact: React.FC = () => {
         <div className="section-header">
           <h2 className="section-title">Get In Touch</h2>
           <p className="section-subtitle">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
+            Have a project in mind or want to collaborate? I'd love to hear from
+            you!
           </p>
         </div>
 
@@ -53,8 +68,8 @@ const Contact: React.FC = () => {
           <div className="contact-info">
             <h3>Let's Connect</h3>
             <p>
-              I'm always open to discussing new opportunities, interesting projects, 
-              or just having a chat about technology and development.
+              I'm always open to discussing new opportunities, interesting
+              projects, or just having a chat about technology and development.
             </p>
 
             <div className="contact-details">
@@ -88,39 +103,27 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-             <div className="contact-item">
-                <div className="contact-icon">
-                  <FiGithub />
-                </div>
-                <div>
-                  <h4>GitHub</h4>
-                  <p> <a
-                     href="https://github.com/tahfizmir"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                    className="contact-link-button"
-                       >
-       Click here
-  </a></p>
-                </div>
-              </div>
+         
 
-   <div className="contact-item">
-                <div className="contact-icon">
-                  <FiLinkedin />
-                </div>
-                <div>
-                  <h4>Linked In</h4>
-                  <p> <a
-                     href="https://www.linkedin.com/in/tahfiz-mir-46364a239/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                    className="contact-link-button"
-                       >
-       Click here
-  </a></p>
-                </div>
+            <div className="contact-item">
+              <div className="contact-icon">
+                <FiLinkedin />
               </div>
+              <div>
+                <h4>Linked In</h4>
+                <p>
+                  {" "}
+                  <a
+                    href="https://www.linkedin.com/in/tahfiz-mir-46364a239/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-link-button"
+                  >
+                    Click here
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
 
           <form className="contact-form card" onSubmit={handleSubmit}>
@@ -187,4 +190,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact; 
+export default Contact;
